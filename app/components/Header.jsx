@@ -12,11 +12,11 @@ const Header = () => {
       <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
             Hi, I'm Tanvir Hossain <Image src={assets.hand_icon} alt="" className='w-6'/> </h3>
 
-            <h1 className='text-3xl sm:text-6xl lg:text-[66px] fot-Ovo'>
+            <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
                 fullstack web developer based in Bangladesh. 
             </h1>
 
-            <p className='max-w-2xl max-auto fontOvo'>
+            <p className='mx-w-2xl max-auto font-Ovo'>
                 I'm a fullstack web developer from Dhaka, Bangladesh with 3 years of experience in building web applications.
             </p>
 
