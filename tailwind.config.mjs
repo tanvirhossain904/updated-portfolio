@@ -21,9 +21,11 @@ export default {
         'white': '4px 4px 0 #fff',
       },
       gridTemplateColumns: {
-        'auto': 'repeat(auto-fit, minmax(200px, 1fr))',
+        'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
       },
-    }, // This closes extend
-  },   // This closes theme
+    }, 
+  }, 
+  
+  darkMode: 'selector',
   plugins: [],
 };
