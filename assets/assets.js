@@ -78,36 +78,40 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'FitnessLume',
+        description: 'Personal Blogging Project',
         bgImage: '/work-1.png',
+        link: 'https://fitnesslume.com'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'EttsyBD',
+        description: 'E-commerce Project',
         bgImage: '/work-2.png',
+        link: 'https://ettsybd.com'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'SEO Analyzer Pro',
+        description: 'Real-time Website SEO Audit Tool',
         bgImage: '/work-3.png',
+        link: 'https://seo-analyzer-tool-gamma.vercel.app/'
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
+        link: '#' // Add link here if available
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.web_icon, title: 'Web development', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.graphics_icon, title: 'Website optimization & SEO basics', description: 'Improving website speed, structure, and basic search visibility...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js, Git & GitHub, Basic SEO & Affiiate Marketing' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js, Git & GitHub, MongoDB, Wordpress' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'OTHM extended level 5 in Information Technology (Ofqual, UK)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];

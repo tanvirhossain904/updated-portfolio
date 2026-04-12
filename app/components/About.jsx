@@ -40,7 +40,7 @@ const About = ({ isDarkMode }) => {
         </motion.div>
         <motion.div className='flex-1' variants={itemVariants}>
             <p className='mb-10 max-w-2xl font-Ovo dark:text-gray-300'>
-                I'm an experienced Fullstack Developer with years of experience and professional expertise in the field. Throughout my career, I have provided solutions for various clients across different industries, contributing to their success and growth.</p>
+                I'm a web developer with hands-on experience building full-stack applications using the MERN stack. I build responsive and user-friendly websites, and I have worked on personal projects, affiliate websites, and an e-commerce store, where I handled both frontend design and backend basics.</p>
 
                 <motion.ul 
                   className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'

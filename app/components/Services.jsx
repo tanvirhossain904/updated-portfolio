@@ -30,7 +30,7 @@ const Services = () => {
       <motion.h2 variants={itemVariants} className='text-center text-5xl font-Ovo'>My Services</motion.h2>
 
       <motion.p variants={itemVariants} className='text-center max-w-xl md:max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I'm a fullstack web developer from Dhaka, Bangladesh with 3 years of experience in building web applications.
+        I help individuals and businesses build fast, responsive, and user-friendly websites and web applications.
       </motion.p>
 
       <motion.div 

@@ -37,7 +37,7 @@ const Header = () => {
             </motion.h1>
 
             <motion.p variants={itemVariants} className='max-w-2xl mx-auto font-Ovo dark:text-gray-300'>
-                I'm a fullstack web developer from Dhaka, Bangladesh with 3 years of experience in building web applications.
+                I build responsive and user-friendly web applications using the MERN stack, focusing on clean code and practical solutions.
             </motion.p>
 
             <motion.div variants={itemVariants} className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
