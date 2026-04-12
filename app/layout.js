@@ -12,8 +12,12 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio-Tanvir Hossain",
-  description: "Personal portfolio website for Tanvir Hossain",
+  title: "Tanvir Hossain | Fullstack Developer",
+  description: "Based in Bangladesh, specializing in modern web applications.",
+  icons: {
+    icon: "/favicon.ico", // Standard favicon
+    apple: "/apple-touch-icon.png", // For iPhone home screens
+  },
 };
 
 export default function RootLayout({ children }) {
