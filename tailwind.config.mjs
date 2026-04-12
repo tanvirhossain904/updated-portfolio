@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'selector',
   content: [
-    "./pages/**/*.{js,jsx,ts,tsx,mdx}",
     "./app/**/*.{js,jsx,ts,tsx,mdx}",
-    "./components/**/*.{js,jsx,ts,tsx,mdx}",
+    "./pages/**/*.{js,jsx,ts,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -23,9 +23,6 @@ export default {
       gridTemplateColumns: {
         'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
       },
-    }, 
-  }, 
-  
-  darkMode: 'selector',
-  plugins: [],
+    },
+  },
 };
