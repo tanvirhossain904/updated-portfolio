@@ -78,30 +78,48 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'FitnessLume',
-        description: 'Personal Blogging Project',
-        bgImage: '/work-1.png',
-        link: 'https://fitnesslume.com'
+        title: 'ApexLift',
+        category: 'Full-Stack Web App',
+        year: '2025',
+        featured: true,
+        description: 'MERN fitness-performance platform with JWT-secured authentication, role-based access, and complex data modeling for workout tracking.',
+        bgImage: '/work-4.png',
+        link: 'https://apexlift-phi.vercel.app/',
+        github: 'https://github.com/tanvirhossain904/apexlift',
+        tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind']
     },
     {
         title: 'EttsyBD',
-        description: 'E-commerce Project',
+        category: 'E-commerce Platform',
+        year: '2025',
+        featured: true,
+        description: 'Production e-commerce site with dynamic inventory management, checkout flow, and optimized queries for sub-second product loads.',
         bgImage: '/work-2.png',
-        link: 'https://ettsybd.com'
+        link: 'https://ettsybd.com',
+        github: 'https://github.com/tanvirhossain904/ettsybd',
+        tags: ['Next.js', 'PostgreSQL', 'REST API', 'Stripe']
     },
     {
         title: 'SEO Analyzer Pro',
-        description: 'Real-time Website SEO Audit Tool',
+        category: 'SaaS Tool',
+        year: '2024',
+        description: 'Real-time SEO diagnostic tool with automated audit algorithms, async API data fetching, and exportable performance reports.',
         bgImage: '/work-3.png',
-        link: 'https://seo-analyzer-tool-gamma.vercel.app/'
+        link: 'https://seo-analyzer-tool-gamma.vercel.app/',
+        github: 'https://github.com/tanvirhossain904/seo-analyzer-pro',
+        tags: ['React', 'Node.js', 'Web APIs', 'Vercel']
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-        link: '#' // Add link here if available
-    },
-]
+        title: 'FitnessLume',
+        category: 'Marketing Site',
+        year: '2024',
+        description: 'High-performance content engine tuned for Core Web Vitals, on-page SEO, and sub-second TTFB via edge-cached delivery.',
+        bgImage: '/work-1.png',
+        link: 'https://fitnesslume.com',
+        github: 'https://github.com/tanvirhossain904/fitnesslume',
+        tags: ['Next.js', 'SEO', 'Edge Cache', 'Tailwind']
+    }
+];
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web development', description: 'Web development is the process of building, programming...', link: '' },
